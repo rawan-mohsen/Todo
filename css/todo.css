@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+:root {
+    --main-font: 'Fasthand', cursive;
+    --second-font: 'Roboto', sans-serif;
+    --third-font: 'Sofia Sans', sans-serif;
+}
+
+body {
+    background-image: url(../images/020d74acb228c642aef023ecc288276b.jpg);
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.row {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+button#taskBtn {
+    background-color: #ffc0c1ba;
+    border: 1px solid hotpink;
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+li {
+    cursor: pointer;
+}
