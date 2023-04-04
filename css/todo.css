@@ -40,3 +40,44 @@ h5 {
 li {
     cursor: pointer;
 }
+
+/********************************************** */
+@media (max-width:850px) {
+
+    h1 {
+        font-size: 1.7rem;
+        width: 75%;
+    }
+
+    input#taskInput {
+        font-size: .8rem;
+    }
+
+    .row {
+        padding-top: 60px;
+        padding-left: 0px;
+        width: 85%;
+    }
+
+    button#taskBtn {
+        background-color: #ffc0c1ba;
+        border: 1px solid hotpink;
+        color: black;
+        font-weight: bold;
+        font-size: .8rem;
+        width: 80px;
+    }
+
+    .col-3 {
+        width: 20%;
+    }
+
+    h5 {
+        font-size: .8rem;
+        width: 200px;
+    }
+
+    .m-3 {
+        padding-left: 0;
+    }
+}
